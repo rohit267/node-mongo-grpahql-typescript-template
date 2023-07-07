@@ -1,0 +1,15 @@
+scalar JSON
+scalar ObjectID
+scalar Object
+
+schema {
+    query: RootQuery
+}
+
+type RootQuery {
+    hello: HelloQuery!
+}
+
+type HelloQuery {
+    hello: String!
+}
